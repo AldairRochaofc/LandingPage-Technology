@@ -1,0 +1,303 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(15, 20, 22);
+    color: white;
+}
+a {
+text-decoration: none;
+color: white;
+}
+a:hover {
+color: #89c9c9;
+}
+li{
+    display: inline-block;
+    margin: 10px;
+    padding:16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li:hover{
+    color: #89c9c9;
+    cursor: pointer;
+}
+i:hover{
+    color: #437a7a;
+    cursor: pointer;
+}
+#showcase-principal{
+    display: flex;
+    justify-content: space-around
+}
+.showcase-text{
+    margin-top: 10%;
+}
+.we-peoples{
+    width: 32%;
+
+}
+.logo-wepeoples{
+    width: 28%;
+
+}
+#icon-login{
+    font-size: 16px;
+}
+.h1-showcase{
+    font-size: 2.5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.h2-showcase{
+    font-size: 1.8em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10%;
+}
+
+.h3-showcase{
+    font-size:1.5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn-showcase{
+    background-color: #437a7a;
+    color: white;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+}
+.btn-showcase:hover{
+    background-color: #254e4e;
+    cursor:pointer
+}
+.img-showcase{
+    width: 30%;
+}
+.showcase-tech{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+i{
+    font-size: 90px;
+    color: #89c9c9;
+    margin-bottom: 10%;
+}
+.showcase-deploiment{
+    background-color: #2c5050;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.container-services{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h1-deploiment{
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.coments{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.coments2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.showcase-deploi-text{
+    width: 1000px;
+}
+.h1-service{
+    text-align: center;
+    padding: 20px;
+    margin: 4% 0 4% 0;
+}
+.service-showcase{
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-bottom: 10%;
+
+}
+.landing-1{
+    border-radius: 10px;
+}
+
+.service-p{
+    width: 500px;
+}
+.landing-1{
+    width: 45%;
+}
+#contats{
+    display: flex;
+    justify-content: space-evenly;
+}
+.h1-contact{
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#inome{
+    border: none;
+    border: 2px solid #89c9c9;
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+    width: 400px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    
+}
+#iemail{
+    border: none;
+    border: 2px solid #89c9c9;
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+    width: 400px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+textarea{
+    background-color: transparent;
+    border: 2px solid #89c9c9;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+.button-contact{
+    border: none;
+    background-color: #2c5050;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+.button-contact:hover{
+    background-color: #183131;
+    cursor: pointer;
+}
+.contact-showcase{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h1-email{
+line-height: 1px;
+}
+.redes-contact{
+    margin-bottom: 1.5%;
+}
+#contact-icon{
+    font-size: 1.8em;
+    margin-right: 20px;
+}
+.animate__animated.animate__pulse{
+    --animate-duration: 2s;
+   
+}
+
+
+
+@media screen and (max-width: 730px) {
+    
+    .we-peoples{
+        display: none;
+    }
+    .h1-showcase{
+       text-align: center;
+        font-size: 22px;
+    }
+    .h2-showcase{
+       text-align: center;
+        font-size: 16px;
+    }
+    .btn-showcase{
+        font-size: 16px;
+        padding: 10px;
+       position: relative;
+       top: 50%;
+       left: 25%;
+    }
+    #i-face{
+        font-size: 3em;
+    }
+    #i-micro{
+        font-size: 3em;
+    }
+    #i-google{
+        font-size: 3em;
+    }
+    #i-git{
+        font-size: 3em;
+    }
+    .showcase-deploi-text{
+        font-size: 14px;
+        width: 400px;
+    }
+    .service-showcase{
+      flex-direction: column;
+      align-items: center;
+   
+    }
+    .landing-1{
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    .service-p{
+        font-size: 16px;
+        width: 500px;
+        padding: 100px;
+        order: 2;
+    }
+    #contats{
+        flex-direction: column;
+        align-items: center;
+    }
+    #inome{
+        position: relative;
+        top: 50%;
+        left: 15%;
+        text-align: center;
+        width: 250px;
+    }
+    #iemail{
+        position: relative;
+        top: 50%;
+        left: 15%;
+        text-align: center;
+        width: 250px;
+    }
+    .button-contact{
+        font-size: 20px;
+        position: relative;
+        top: 50%;
+        left: 27%;
+        margin-bottom: 20%;
+    }
+    .contact-showcase{
+      margin-bottom: 10%;
+     margin-left:7%;
+    }
+    textarea{
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 750px){
+.service-p{
+    width: 400px;
+}
+}
