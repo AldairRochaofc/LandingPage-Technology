@@ -17,11 +17,12 @@
             <div class="logo" >
                 <h1><img class="logo-wepeoples" src="img/We__1_-removebg-preview.png" alt=""></h1>
             </div>
-            <div class="nav-list" >
+            <div id="card1" class="nav-list">
                 <ul>
                     <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"> Contato</a></li>
+                    <li class="nav-item"><a onclick="flipa()" href="#showcase-deploiment" class="nav-link">Depoimentos</a></li>
+                    <li class="nav-item"><a href="#nossos-servicos" class="nav-link"> Nossos Serviços</a></li>
+                    <li class="nav-item"><a href="#contatos" class="nav-link">Contatos</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Login <i id="icon-login" class="bi bi-person"></i></a></li>
                     
                 </ul>
@@ -34,8 +35,10 @@
         <div class="mobile-menu">
             <ul>
                 <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a onclick="flipa()" href="#showcase-deploiment" class="nav-link">Depoimentos</a></li>
+                    <li class="nav-item"><a href="#nossos-servicos" class="nav-link"> Nossos Serviços</a></li>
+                    <li class="nav-item"><a href="#contatos" class="nav-link">Contatos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Login <i id="icon-login" class="bi bi-person"></i></a></li>
             </ul>
         </div>
     </header>
@@ -54,7 +57,7 @@
             <i id="i-micro"class="bi bi-microsoft"data-aos="zoom-in-up"></i>
             <i id="i-git"class="bi bi-github"data-aos="zoom-in-up"></i>
         </section>
-        <section class="showcase-deploiment">
+        <section id="showcase-deploiment">
             <h1 class="h1-deploiment">Depoimentos</h1>
         <section class="coments">
             <p class="showcase-deploi-text"data-aos="zoom-in-up"> <i class="bi bi-person-fill"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque fuga perferendis temporibus ullam cupiditate consequuntur! Sint, cum asperiores. Neque ducimus voluptatum minima laborum architecto, aperiam ut eligendi necessitatibus soluta dicta.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam recusandae debitis consequatur odio, natus excepturi quas et amet minus cupiditate laboriosam sequi nemo autem nam, quos laborum iure? Alias, architecto!</p>
@@ -66,7 +69,7 @@
         </section>
         <section id="showcase-services">
             <div class="container-services">
-                <h1 class="h1-service">Nossos Serviços</h1>
+                <h1 id="nossos-servicos" class="h1-service">Nossos Serviços</h1>
                 <div class="service-showcase" data-aos="zoom-in-up">
                     <img class="landing-1" src="img/Landing 1.png" alt="Landing 1">
                     <p class="service-p" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, deserunt odio minima adipisci rem consequuntur velit ullam ad distinctio tempore. Dolorem quas suscipit quaerat totam quae obcaecati nam ipsum vel?</p>
@@ -100,7 +103,7 @@
                 </div>
             </section>
         </section>
-        <h1 class="h1-contact">Contatos</h1> 
+        <h1 id="contatos" class="h1-contact">Contatos</h1> 
         <section id="contats" data-aos="zoom-in-up"> 
             <div id="section" class="showcase-contact">
                 <input type="text" name="" id="inome" placeholder="Digite seu Nome"> <br>
